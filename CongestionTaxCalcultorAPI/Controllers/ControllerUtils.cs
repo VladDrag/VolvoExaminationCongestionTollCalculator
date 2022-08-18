@@ -2,6 +2,7 @@
 using System.Globalization;
 using System;
 using congestion.calculator.Models;
+using congestion.calculator;
 
 namespace CongestionTaxCalcultorAPI.Controllers
 {
@@ -17,11 +18,24 @@ namespace CongestionTaxCalcultorAPI.Controllers
 
 		public Vehicle DetectVehicle(string vehicleName)
 		{
+
+			CongestionTaxCalculator calc = new CongestionTaxCalculator();
+
 			if (string.IsNullOrEmpty(vehicleName)) return null;
+
+			if (vehicleName == "car") return new Car();
 
 			if (vehicleName == "motorcycle") return new Motorcycle();
 
-			if (vehicleName == "car") return new Car();
+			if (vehicleName == "diplomat") return new Diplomat();
+
+			if (vehicleName == "emergency") return new Emergency();
+
+			if (vehicleName == "foreign") return new Foreign();
+
+			if (vehicleName == "military") return new Military();
+
+			if (vehicleName == "tractor") return new Tractor();
 
 			return null;
 		}

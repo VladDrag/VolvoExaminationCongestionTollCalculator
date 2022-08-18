@@ -1,0 +1,1 @@
+1) I am not sure if there are other vehicles to be added besides the ones mentioned, so I just limited the scope to 'car' and the rest of the toll exempt vehicles; As a question - are there any other vehicles we should take into account?
