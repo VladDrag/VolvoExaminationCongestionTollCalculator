@@ -1,5 +1,5 @@
 using System;
-using congestion.calculator;
+using congestion.calculator.Models;
 using DocumentFormat.OpenXml.Spreadsheet;
 
 public class CongestionTaxCalculator

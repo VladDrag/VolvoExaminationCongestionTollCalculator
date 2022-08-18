@@ -5275,11 +5275,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\C#\\Projects\\VolvoTest\\congestion-tax-calculator\\CongestionTaxCalcultorAPI\\CongestionTaxCalcultorAPI.csproj",
+      "projectUniqueName": "D:\\workspace\\C#\\Projects\\VolvoExaminationCongestionTollCalculator\\CongestionTaxCalcultorAPI\\CongestionTaxCalcultorAPI.csproj",
       "projectName": "CongestionTaxCalcultorAPI",
-      "projectPath": "D:\\workspace\\C#\\Projects\\VolvoTest\\congestion-tax-calculator\\CongestionTaxCalcultorAPI\\CongestionTaxCalcultorAPI.csproj",
+      "projectPath": "D:\\workspace\\C#\\Projects\\VolvoExaminationCongestionTollCalculator\\CongestionTaxCalcultorAPI\\CongestionTaxCalcultorAPI.csproj",
       "packagesPath": "C:\\Users\\VladDrag\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\C#\\Projects\\VolvoTest\\congestion-tax-calculator\\CongestionTaxCalcultorAPI\\obj\\",
+      "outputPath": "D:\\workspace\\C#\\Projects\\VolvoExaminationCongestionTollCalculator\\CongestionTaxCalcultorAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VladDrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5296,8 +5296,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\workspace\\C#\\Projects\\VolvoTest\\congestion-tax-calculator\\netcore\\congestion-tax-calculator-net-core.csproj": {
-              "projectPath": "D:\\workspace\\C#\\Projects\\VolvoTest\\congestion-tax-calculator\\netcore\\congestion-tax-calculator-net-core.csproj"
+            "D:\\workspace\\C#\\Projects\\VolvoExaminationCongestionTollCalculator\\netcore\\congestion-tax-calculator-net-core.csproj": {
+              "projectPath": "D:\\workspace\\C#\\Projects\\VolvoExaminationCongestionTollCalculator\\netcore\\congestion-tax-calculator-net-core.csproj"
             }
           }
         }

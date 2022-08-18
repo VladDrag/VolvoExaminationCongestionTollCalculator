@@ -1,11 +1,11 @@
-﻿using congestion.calculator;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Globalization;
 using System;
+using congestion.calculator.Models;
 
 namespace CongestionTaxCalcultorAPI.Controllers
 {
-	public class ControllerUtils
+    public class ControllerUtils
 	{
 		public string TaxCalc(Vehicle vehicle, DateTime[] time)
 		{
