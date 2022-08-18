@@ -20,7 +20,6 @@ namespace CongestionTaxCalcultorAPI.Controllers
 		public async Task<ActionResult<string>> Post([FromRoute] string vehicleName, [FromRoute] string[] timeInterval)
 		{
 			var timeStrings = timeInterval[0].Split(",");
-			Console.WriteLine(timeStrings[0]);
 
 			var time = _controllerUtils.CreateTimeInterval(timeStrings);
 			var vehicle = _controllerUtils.DetectVehicle(vehicleName.ToLower());

@@ -42,7 +42,6 @@ namespace CongestionTaxCalcultorAPI.Controllers
 
 		public DateTime[] CreateTimeInterval(string[] timeStrings)
 		{
-			Console.WriteLine(timeStrings[0]);
 			var result = new List<DateTime> { };
 			CultureInfo culture = new CultureInfo("en-US");
 
